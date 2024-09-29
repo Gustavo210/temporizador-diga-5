@@ -76,7 +76,7 @@
 			</button>
 		{/if}
 
-		{#if !isRunning && seconds > 0 && seconds !== initialSeconds}
+		{#if !isRunning && seconds !== initialSeconds}
 		<button class="clear" on:click={clearTimer} aria-label="Clear timer">
 			Clear
 		</button>
