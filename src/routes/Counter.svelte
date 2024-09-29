@@ -42,6 +42,7 @@
 	function setTimer(value: number) {
 		initialSeconds = value; // Atualiza o valor inicial
 		inputSeconds = value; // Atualiza o valor do input
+		seconds = value; // Atualiza o valor do temporizador
 		stopTimer(); // Para o timer caso esteja rodando
 	}
 
